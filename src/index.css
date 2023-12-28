@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+ .RightNavEle {
+     @apply flex items-center font-normal  gap-[20px] cursor-pointer
+ }
+  .FlexBetween{
+     @apply flex items-center justify-between
+  }
+
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.active{
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all .3s;
+
+}
+.active i {
+    color: rgb(236, 63, 179);
+}
+
